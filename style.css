@@ -1,0 +1,147 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.details{
+    margin: 50px auto;
+    background-color:white;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 5px rgb(76, 87, 87);
+}
+label{
+    position: relative;
+    left: -30px;
+    font-family:'Segoe UI', sans-serif ;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+label[for=gender]{
+    position: relative;
+    left: -60px;
+}
+input{
+    font-size: large;
+    cursor: pointer;
+   
+}
+input[type=text],select{
+    width: 50%;
+    position: relative;
+    left: 20px;
+}
+input[type=text]{
+    width: 50%;
+    position: relative;
+    left: 10px;
+}
+textarea[type=text1]{
+    width: 50%;
+    position: relative;
+    left: 22px;
+}
+input[type=password]{
+    width: 50%;
+    position: relative;
+    left: 10px;
+}
+input[type=email]{
+    width: 50%;
+    position: relative;
+    left: 32px;
+}
+input[type=number]{
+    width: 50%;
+    position: relative;
+    left: 22px;
+}
+input[type=date]{
+    width: 50%;
+    position: relative;
+    left: 28px;
+}
+input:hover{
+    box-shadow:10px 5px 10px rgba(51, 50, 51, 0.897);
+}
+select{
+    font-size: larger;
+}
+option{
+    font-size: large;
+}
+a button{
+    background-color: burlywood;
+    border: none;
+    padding: 15px;
+    font-size: large;
+    border-radius: 10px;
+}
+a button:hover{
+    background-color: rgb(236, 153, 153);
+    border:1px solid black;
+    transform:scaleX(1.5);
+    border-radius: 10px;
+}
+
+
+@media (min-width:320px) and (max-width:1024px){
+    .details{
+        width: 85%;
+        padding: 40px;
+    }
+    input[type=text],select{
+        width:100%;
+        position: relative;
+        left: 0px;
+    }
+    input[type=text]{
+        width:100%;
+        position: relative;
+        left: 0px;
+    }
+    input[type=password]{
+        width:100%;
+        position: relative;
+        left: 0px;
+    }
+    input[type=number]{
+        width:100%;
+        position: relative;
+        left: 0px;
+    }
+    input[type=email]{
+        width:100%;
+        position: relative;
+        left: 0px;
+    }
+    input[type=date]{
+        width:100%;
+        position: relative;
+        left: 0px;
+    }
+    input[type=text1]{
+        width:100%;
+        position: relative;
+        left: 0px;
+    }
+    label[for=gender]{
+        position: relative;
+        left: 0px;
+    }
+    input[type=radio]{
+        position: relative;
+        left: 0px;
+    }
+    label{
+        position: relative;
+        left: -50px;
+    }
+
+    
+}
